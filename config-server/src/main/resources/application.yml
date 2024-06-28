@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/OlveraRobertP/Spring-Boot-3-Base-MicroServices
+          uri: ${CONFIG_REPO_URI}
           default-label: main
