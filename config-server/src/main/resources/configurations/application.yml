@@ -1,0 +1,36 @@
+logging:
+  level:
+    root: INFO
+    org.springframework: WARN
+    com.yourcompany: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+# spring:
+#   security:
+#     user:
+#       name: ${SECURITY_USER:user}
+#       password: ${SECURITY_PASSWORD:password}
+
+server:
+  port: 0  # Puerto aleatorio
+  servlet:
+    context-path: /api
+
+spring:
+  jackson:
+    time-zone: America/Mexico_City
