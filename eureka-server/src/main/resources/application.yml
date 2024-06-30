@@ -1,8 +1,6 @@
 spring:
   application:
     name: eureka-server
-  profiles:
-    active: dev  # o 'prod' según sea necesario
   config:
     import: "optional:configserver:http://localhost:8888"
   cloud:
