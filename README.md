@@ -23,7 +23,7 @@ To correctly run the project, the following environment variables must be define
 
 - **CONFIG_REPO_URI**: URL of the repository containing the configuration files.
   ```plaintext
-  CONFIG_REPO_URI=https://github.com/OlveraRobertP/moneysensei-config
+  CONFIG_REPO_URI=https://github.com/OlveraRobertP/SpringBoot3-config-main
   ```
 - **SPRING_PROFILES_ACTIVE**: Active Spring profile.
   ```plaintext
